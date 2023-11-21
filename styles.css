@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Poppins:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Karla;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  overflow-x: hidden;
+}
+.container {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.secoundssontainer {
+  display: flex;
+  background-color: antiquewhite;
+}
+.pricingcards {
+  width: 550px;
+  height: auto;
+  border-radius: 20px;
+}
+.join {
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+}
+.joinheader {
+  font-size: 25px;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 10px;
+}
+.joindesc {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 10px;
+}
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.month {
+  width: 50%;
+  color: white;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+}
+.monthh3 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.dollar {
+  font-size: 25px;
+  padding-right: 5px;
+  color: white;
+  font-family: 700;
+}
+.money {
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  padding-bottom: 10px;
+}
+.access {
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+.buttons {
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  background-color: hsl(71, 73%, 54%);
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.why {
+  width: 50%;
+  padding: 30px;
+  background-color: hsl(179, 64%, 54%);
+  color: white;
+}
+.why h4 {
+  padding-bottom: 10px;
+}
+.why p {
+  font-size: 15px;
+}
+@media (max-width: 460px) {
+  body {
+    background-color: aliceblue;
+    overflow-x: hidden;
+  }
+  .container {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .pricingcards {
+    width: 300px;
+    height: auto;
+
+    border-radius: 20px;
+  }
+  .secoundssontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+  }
+  .month {
+    padding: 30px;
+    padding-bottom: 30px;
+    width: auto;
+    color: white;
+    height: auto;
+    background-color: hsl(179, 62%, 43%);
+  }
+
+  .why {
+    width: auto;
+    padding: 30px;
+    background-color: hsl(179, 64%, 54%);
+    color: white;
+  }
+}
